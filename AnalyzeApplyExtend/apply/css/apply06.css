@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Shane Mack
+Date: 4/20/24
+File Name: apply06.css
 */
 
 /* CSS Reset */
@@ -38,6 +38,7 @@ article {
     margin: 2% 1%;
     border: 1px solid #000;
 }
+/* Media Query for Tablet Viewport */
 
 /* Style rule for the footer element */
 footer {
