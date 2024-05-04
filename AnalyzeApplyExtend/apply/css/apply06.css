@@ -13,16 +13,15 @@ body, header, nav, main, footer, h1, div, article, h2 {
 
 /* Style rules for body */
 body {
-	background-color: #fe9972;
+    background-color: #fe9972;
+    background: linear-gradient(to left, #fe9972, #ffe5dc); /* Modified as per instruction */
 }
-
-/* Style rules for mobile viewport */
 
 /* Style rule for the header element */
 header {
-	font-family: Verdana, Arial, sans-serif;
-	margin: 1em;
-	text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    margin: 1em;
+    text-align: center;
     color: #341509;
 }
 
@@ -38,11 +37,38 @@ article {
     margin: 2% 1%;
     border: 1px solid #000;
 }
+
 /* Media Query for Tablet Viewport */
+@media screen and (min-width: 481px) {
+
+    article {
+        width: 43%;
+        float: left;
+        height: 160px;
+    }
+
+    footer {
+        clear: left;
+    }
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 900px) {
+
+    article {
+        width: 27%;
+        height: 140px;
+    }
+
+    article:hover {
+        background-color: #ffe5dc;
+        color: #a22c02;
+    }
+}
 
 /* Style rule for the footer element */
 footer {
-	font-size: .70em;
-	text-align: center;
+    font-size: .70em;
+    text-align: center;
     color: #341509;
 }

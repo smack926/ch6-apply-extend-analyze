@@ -1,7 +1,7 @@
 /*
-Student:
-Date:
-File Name: 
+Student: Shane Mack
+Date: 4/20/2024
+File Name:  styles06.css
 */
 
 /* CSS Reset */
@@ -40,6 +40,45 @@ main {
 
 /* Gradient style rules */
 
+/* Gradient1 class selector */
+.gradient1 {
+    background: linear-gradient(to right, #67afcb, #1a3e4c 25%);
+}
+
+/* Gradient2 class selector */
+.gradient2 {
+    background: linear-gradient(to left, #d4f7ec, #448d76 90%);
+}
+
+/* Gradient3 class selector */
+.gradient3 {
+    background: linear-gradient(to top left, #efddfd, #36065b);
+}
+
+/* Gradient4 class selector */
+.gradient4 {
+    background: linear-gradient(#e6e6ff, #70dbdb, #ffffcc, #cc6699);
+}
+
+/* Gradient5 class selector */
+.gradient5 {
+    background: repeating-linear-gradient(#df80ff 10%, #ccffff 20%);
+}
+
+/* Gradient6 class selector */
+.gradient6 {
+    background: linear-gradient(to right, rgba(0,0,153,0) 25%, rgba(0,0,153,1));
+}
+
+/* Gradient7 class selector */
+.gradient7 {
+    background: radial-gradient(#0000ff, #fff, #ff0000);
+}
+
+/* Gradient8 class selector */
+.gradient8 {
+    background: repeating-radial-gradient(#0000ff, #fff, #ff0000 15%);
+}
 
 /* Style rule for footer */
 footer {

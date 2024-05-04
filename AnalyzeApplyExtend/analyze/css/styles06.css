@@ -1,7 +1,7 @@
 /*
-    Student Name
-	File Name: 
-	Current Date: 
+    Student: Shane Mack
+    Date: 4/20/2024
+    File Name: styles06.css
 */
 
 /* CSS reset */
@@ -24,9 +24,9 @@ img {
 /* Styles for Mobile Layout */
 
 /* Hide tablet-desktop content */
-    .tablet-desktop {
-        display: none;
-    }
+.tablet-desktop {
+    display: none;
+}
 
 /* Style rule for the header */
 header {
@@ -88,6 +88,13 @@ footer {
     nav li a {
         padding: 0.1em 1em;
     }
+
+    /* The following style rule shows the tablet-desktop class */
+    
+    /* Style rule for tablet-desktop class */
+    .tablet-desktop {
+        display: block;
+    }
     
 }
 
@@ -116,4 +123,25 @@ footer {
         clear: left;
     }
 
+    /* Style rule for col-content class */
+    .col-content {
+        width: 30%;
+        float: left;
+        padding: 1.5%;
+    }
+
+    /* Style rule for nav li a hover pseudo-class */
+    nav li a:hover {
+        color: #4424d6;
+        background-color: #e5e0fa;
+    }
+}
+
+/* Media Query for Large Desktop Viewport */
+@media screen and (min-width: 1441px) {
+    /* Style rule for container */
+    #container {
+        width: 1440px;
+        margin: 0 auto;
+    }
 }
